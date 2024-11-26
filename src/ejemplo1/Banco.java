@@ -88,7 +88,7 @@ public class Banco {
                         } else if (operacion == 2) {
                             cuentaActual.retirar(cantidad);
                         } else if (operacion == 3) {
-                            // Transferencia
+                    
                             Cuenta cuentaDestino = null;
                             boolean cuentaDestinoValida = false;
                             while (!cuentaDestinoValida) {
